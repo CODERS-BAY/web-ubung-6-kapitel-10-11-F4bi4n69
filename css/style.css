@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     height: 9rem;
     background: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/header.jpg);
     background-repeat: no-repeat;
@@ -9,6 +9,11 @@ header {
     background-size: 90rem 40rem;
     padding: 0.5rem;
     border-radius: 0.75rem;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+    text-shadow: 2px 2px white;
 }
 
 nav ul {
@@ -27,7 +32,7 @@ nav a.aktuell {
 
 body {
     background-color: rgb(199, 199, 199);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 main.start {
@@ -51,21 +56,20 @@ iframe {
     width: 100%;
 }
 
-
-
 form {
-    margin-left:35rem;
+    position: relative;
+    left: 35%;
 }
 
 #kontakt {
     background-image: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/forest.jpg);
     background-repeat: no-repeat;
     max-width: 100%;
-    max-width: 100%;
 }
 
-#kontakt {
-    background-color: rgba(0, 0, 0, 0.226) !important;
+.kontakt {
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 30rem;
 }
 
 div.liste {
@@ -73,8 +77,7 @@ div.liste {
 }
 
 table {
-    max-width: 90%;
-    min-width: 40%;
+    width: 90%;
     padding-top: 15px;
     border: 1px solid #000000;
     border-collapse: collapse;
@@ -116,7 +119,7 @@ caption {
 }
 a:link {color: black;}
 a:visited {color: #494949;}
-a:hover {color: #ffffff;}
+a:hover {color: #ffffff; text-decoration: underline;}
 
 input[type="text"] {
     background-color: #ff0000;
@@ -135,8 +138,15 @@ h1::before {
 
 h2::first-letter {
     color: red;
+    font-family: 'Lemonada', cursive;
+    font-size: xx-large;
 }
 
 h1::after {
     content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/nuclear-sign.png);
+}
+
+.test {
+    color: white;
+    list-style-image: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
 }
