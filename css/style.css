@@ -1,0 +1,152 @@
+header {
+    text-align: center;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    height: 9rem;
+    background: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/header.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -3rem;
+    background-position-y: -12rem;
+    background-size: 90rem 40rem;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+    text-shadow: 2px 2px white;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a.aktuell {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(199, 199, 199);
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+main.start {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.start {
+    width: 40%;
+}
+
+iframe {
+    width: 100%;
+}
+
+form {
+    position: relative;
+    left: 35%;
+}
+
+#kontakt {
+    background-image: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/forest.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.kontakt {
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 30rem;
+}
+
+div.liste {
+    padding-left: 8em;
+}
+
+table {
+    width: 90%;
+    padding-top: 15px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    border-radius: 15px;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    background-color: #7085ac;
+    color: #ffffff;
+}
+td {
+    border: 1px solid #000000;
+    max-width: 15rem;
+    padding: 0.25rem;
+    text-align: center;
+    background-color: #858585;
+}
+
+caption {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#senden {
+    color: white;
+    background: green;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 10em;
+}
+
+#reset {
+    color: #000000;
+    background: #ff0000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+a:link {color: black;}
+a:visited {color: #494949;}
+a:hover {color: #ffffff; text-decoration: underline;}
+
+input[type="text"] {
+    background-color: #ff0000;
+}
+
+input[id~="zeit"] {
+    background-color: red;
+}
+
+input[id*="besuch"] {
+    background-color: red;
+}
+h1::before {
+    content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
+}
+
+h2::first-letter {
+    color: red;
+    font-family: 'Lemonada', cursive;
+    font-size: xx-large;
+}
+
+h1::after {
+    content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/nuclear-sign.png);
+}
+
+.test {
+    color: white;
+    list-style-image: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
+}

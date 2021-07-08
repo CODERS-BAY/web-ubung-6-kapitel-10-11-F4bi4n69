@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Kontakt">
+        <title>Zoo Kontakt</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Zoo und seine Bewohner</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="kontakt.html" class="aktuell">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="kontakt">
+            <form class="kontakt">
+                <h2>Feedback</h2>
+                <label  for="vorname">Vorname:</label>
+                <input type="text" name="vorname" id="vorname"></p>
+
+                <label for="nachname">Nachname:</label>
+                <input type="text" name="nachname" id="nachname"></p>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" name="email" id="email"></p>
+
+                <label for="besuch">Besuchstag:</label>
+                <input type="date" name="besuch" id="besuch"></p>
+
+                <label for="zeit">Besuchszeit:</label>
+                <input type="time" name="zeit" id="zeit"></p>
+
+                <label for="gefallen">Wie gut hat es dir gefallen?</label>
+                <input type="range" name="gefallen" id="gefallen">
+
+                <p>Würdest du uns Weiterempfehlen?</p>
+                <label for="ja">Ja</label>
+                <input type="radio" name="empfehlen" id="empfehlungja">
+                <label for="nein">Nein</label>
+                <input type="radio" name="empfehlen" id="empfehlungnein"></p>
+
+                <label for="tier">Welches Tier hat dir am besten gefallen?</label>
+                <input list="tier" name="tiere" id="tiere">
+                
+                <datalist id="tier">
+                  <option value="Regenwurm">
+                  <option value="Spinne">
+                  <option value="Einhorn">
+                  <option value="Seegurke">
+                  <option value="Katze">
+                </datalist></p>
+
+                <label for="kommentar">Kommentar:</label>
+                <textarea id="kommentar" name="kommentar" cols="35" rows="5"></textarea></p>
+
+                <label for="liste">Besucherinfo</label>
+                    <select name="Besucherinfo" size="5">
+                        <option>Familienausflug</option>
+                        <option>Alleine</option>
+                        <option>Gruppenausflug</option>
+                        <option>Ausflug mit Freunden</option>
+                        <option>Andere</option>
+                    </select></p>
+                
+                <button type="button" id="senden">Senden</button>
+                <button type="reset" id="reset">Reset</button>
+            </form>
+            <ul class="test">
+                <li><p>Test</p></li>
+                <li><p>Test</p></li>
+                <li><p>Test</p></li>
+            </ul>
+        </main>
+    </body>
+</html>
